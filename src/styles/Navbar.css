@@ -1,12 +1,49 @@
-.navbar {
+.navbar{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 40px;
+
+  background-color: #161616;
+
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+
+  font-family: 'Inter', sans-serif;
+}
+
+
+.logo{
+    font-size: 2.5rem;
+
+    color: #C6A969;
+
+    font-family: "Great Vibes", cursive;
+
+    letter-spacing: 1px;
+}
+
+
+.links{
+  display: flex;
+
   justify-content: flex-end;
-  gap: 20px;
-  padding: 10px;
-  background-color: #c3c9d1;}
+
+  gap: 35px;
+}
+
 
 .nav-link{
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
+
+    color: #B0B0B0;
+
+    font-weight: 500;
+
+    transition: all 0.3s ease;
+}
+
+
+.nav-link:hover{
+    color: #C6A969;
 }
