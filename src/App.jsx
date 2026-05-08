@@ -9,7 +9,7 @@ function App() {
   return (
     <>     
       <Navbar /> 
-      <h1>Welcome to my Portfolio</h1>
+      
     </>
   )
 }
