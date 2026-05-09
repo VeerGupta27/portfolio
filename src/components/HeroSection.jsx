@@ -14,21 +14,18 @@ export default function HeroSection(){
         <div className="Hero-right">
 
         <h1 className="Hero-title">Hi, I'm Veer.</h1>
-       <h2 className="Hero-subtitle">
-  I'm a{" "}
-  
+  <h2 className="Hero-subtitle">
   <span className="changing-text">
     <TypeAnimation
       sequence={[
-        "AI Developer",
+        "Building AI Solutions.",
         2000,
 
-        "Full-Stack Developer",
+        "Developing Full-Stack Apps.",
         2000,
 
-        "Content Writer",
+        "Crafting Code & Verses.",
         2000,
-
       ]}
       wrapper="span"
       speed={50}
@@ -43,7 +40,12 @@ export default function HeroSection(){
 
 
 
-      <div className="social-icons">
+
+        <button className="cta-button">Get In Touch</button>
+        <button className="cta-button">View Projects</button>
+
+
+  <div className="social-icons">
 
   <a href="https://www.linkedin.com/in/veer27gupta" target="_blank">
     <FaLinkedinIn />
