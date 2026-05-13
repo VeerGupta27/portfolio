@@ -4,6 +4,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import "../styles/HeroSection.css"
+import "../styles/About.css";
 
 export default function HeroSection(){
 
@@ -41,9 +42,15 @@ export default function HeroSection(){
 
 
 
-        <button className="cta-button">Get In Touch</button>
-        <button className="cta-button">View Projects</button>
+        <div className="hero-buttons">
+  <button className="cta-button primary">
+    Get In Touch
+  </button>
 
+  <button className="cta-button secondary">
+    View Projects
+  </button>
+</div>
 
   <div className="social-icons">
 
@@ -80,4 +87,44 @@ export default function HeroSection(){
         </div>
     )
 
+}
+
+
+export function About() {
+  return (
+    <section className="About-section">
+
+      <img
+        src="/About.png"
+        alt="Veer"
+        className="About-image"
+      />
+
+      <div className="About-text">
+
+        <h1 className="About-title">
+          About Me
+        </h1>
+
+        <p className="content">
+          I'm <span className="highlight">Veer</span>, a passionate
+          Undergraduate <span className="highlight">
+          Software Developer
+          </span> with a love for building innovative solutions.
+
+          With expertise in <span className="highlight">
+          Full-Stack Development
+          </span> & building <span className="highlight">
+          AI Powered Applications
+          </span>, I enjoy creating seamless digital experiences
+          and crafting code that brings ideas to life.
+
+          My journey in tech is driven by a desire to learn,
+          grow, and make an impact through technology.
+        </p>
+
+      </div>
+
+    </section>
+  );
 }

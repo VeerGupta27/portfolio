@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import Navbar from './components/Navbar'
-import HeroSection from './components/HeroSection'
+import HomePage from './pages/homePage'
 
 import './App.css'
 
@@ -9,8 +8,7 @@ function App() {
 
   return (
     <>     
-      <Navbar /> 
-      <HeroSection />
+      <HomePage />
     </>
   )
 }
